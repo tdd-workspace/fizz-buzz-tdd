@@ -15,4 +15,8 @@ public class FizzBuzzTest {
     void toReturnFizzWhenTheNumberIsThreeOrItsMultiples(){
         assertThat(fizzBuzz.of(3), is(equalTo("Fizz")));
     }
+    @Test
+    void toReturnBuzzWhenTheNumberIsFiveOrItsMultiples(){
+        assertThat(fizzBuzz.of(5), is(equalTo("Buzz")));
+    }
 }
