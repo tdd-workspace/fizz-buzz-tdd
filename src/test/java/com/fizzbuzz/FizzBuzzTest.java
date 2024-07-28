@@ -29,7 +29,7 @@ public class FizzBuzzTest {
     }
     @Test
     void toReturnBuzzWhenTheNumberContainsFive(){
-        assertThat(fizzBuzz.of(52),is(equalTo("Buzz")));
+        assertThat(fizzBuzz.of(58),is(equalTo("Buzz")));
     }
     @Test
     void toReturnFizzBuzzWhenTheNumberContainsFifteen(){
